@@ -1,0 +1,47 @@
+/* Global Changes */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: #2C8C99;
+    --secondary-color: #70C1B3;
+    --tertiary-color: #cc5a71;
+    --shadow-box: ;
+    --border-rad: ;
+}
+
+.main-bg {
+    background-color: var(--primary-color) !important;
+}
+
+/* Header changes */
+
+.logo-header{
+    font-weight: bold;
+}
+
+.logo-offset {
+    position: relative;
+    right: 42%;
+}
+
+.header-offset {
+    position: relative;
+    bottom: 10px;
+}
+
+/* Nav Changes */
+
+.nav-link{
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    padding: 2% 2.5%;
+}
+
+.nav-link:hover{
+    transform: translate(-1px, -1px);
+    box-shadow: 1px 1px;
+}
