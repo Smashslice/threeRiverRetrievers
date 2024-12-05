@@ -17,10 +17,23 @@
     background-color: var(--primary-color) !important;
 }
 
+.pawprint-bg{
+    background-image: url(images/pawprints.jpg);
+    background-size: cover;
+}
+
 /* Header changes */
 
-.logo-header{
+.backgroundriver{
+    border-radius: 5px;
+    background-image: url(images/riverheader.jpg);
+    background-size: cover;
+}
+
+.headertext{
     font-weight: bold;
+    color: var(--tertiary-color);
+    -webkit-text-stroke: 1px black;
 }
 
 .logo-offset {
@@ -33,12 +46,19 @@
     bottom: 10px;
 }
 
+.motto {
+    font-size: 1rem;
+    width: 40%;
+    position: relative;
+    left: 67.5%;
+}
+
 /* Nav Changes */
 
 .nav-link{
     font-weight: bold;
     background-color: var(--secondary-color);
-    padding: 2% 2.5%;
+    padding: 1% 2.5%;
 }
 
 .nav-link:hover{
