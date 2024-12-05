@@ -24,33 +24,40 @@
 
 /* Header changes */
 
-.backgroundriver{
+.background-river{
     border-radius: 5px;
     background-image: url(images/riverheader.jpg);
-    background-size: cover;
+    background-size: contain;
 }
 
-.headertext{
+.header-text{
     font-weight: bold;
     color: var(--tertiary-color);
     -webkit-text-stroke: 1px black;
 }
 
-.logo-offset {
-    position: relative;
-    right: 42%;
-}
-
-.header-offset {
-    position: relative;
-    bottom: 10px;
-}
 
 .motto {
-    font-size: 1rem;
+    font-size: 1.25rem;
     width: 40%;
     position: relative;
-    left: 67.5%;
+    left: 65%;
+}
+
+.fa-brands {
+    color: var(--tertiary-color);
+    -webkit-text-stroke: 0.2px black;
+    position: relative;
+    top: 15%;
+}
+
+.fa-brands:hover{
+    transform: translate(-2px, -2px);
+}
+
+.socials {
+    position: relative;
+    bottom: 5%;
 }
 
 /* Nav Changes */
@@ -64,4 +71,23 @@
 .nav-link:hover{
     transform: translate(-1px, -1px);
     box-shadow: 1px 1px;
+}
+
+
+/* Media Queries */
+
+@media (min-width: 768px){
+
+}
+
+@media (min-width: 992px){
+
+}
+
+@media (min-width: 1200px){
+
+}
+
+@media (min-width: 1400px){
+
 }

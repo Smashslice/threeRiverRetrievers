@@ -11,20 +11,34 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/17fc0b51b5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <!-- Header and "Logo" -->
-    <div class="container main-bg shadow mt-4 backgroundriver">
+    <div class="container main-bg shadow mt-4 background-river">
         <header>
-            <h1 class="text-center logo-offset headertext display-5 mb-1">TRR</h1>
-            <h2 class="text-center header-offset headertext display-6 mb-0 mt-3">Three Rivers Retrievers</h2>
-            <h3 class="text-center headertext motto display-6 pb-2">The Home<br> of Happy Puppies</h3>
+
+            <div class="row">
+                <h1 class="col-2 text-center header-text display-5">TRR</h1>
+                <div class="col-7"></div>
+                <div class="col-1"><a href=""><i class="fa-brands fa-facebook fa-lg"></i></a></div>
+                <div class="col-1"><a href=""><i class="fa-brands fa-instagram fa-lg"></i></a></div>
+                <div class="col-1"><a href=""><i class="fa-brands fa-tiktok fa-lg"></i></a></div>
+            </div>
+            <div class="row">
+                <h2 class="col text-center header-text display-6">Three Rivers Retrievers</h2>
+            </div>
+            <div class="row">
+                <div class="col-10"></div>
+                <h3 class="col-2 text-center header-text motto display-6">The Home<br> of Happy Pups</h3>
+            </div>
+
         </header>
     </div>
     <!-- Navbar -->
     <div class="container-fluid main-bg">
-        <nav class="main-bg navbar navbar-expand sticky-top bg-body-tertiary mb-4 mt-4">
+        <nav class="main-bg navbar navbar-expand sticky-top bg-body-tertiary mt-4">
                 <div class="container-fluid main-bg">
                   <a class="nav-link" href="index.html">Home</a>
                   <a class="nav-link" href="contact.html">Contact Us</a>
@@ -37,16 +51,36 @@
     <!-- Start of main body -->
     <div class="container-fluid pawprint-bg">
         <section class="container">
-            <article>
-
-            </article>
-            <aside>
-
-            </aside>
-
-            <article>
-                
-            </article>
+            <div class="row">
+                <div class="col">
+                    <div id="carouselExampleIndicators" class="carousel slide">
+                        <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="..." class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="..." class="d-block w-100" alt="...">
+                          </div>
+                          <div class="carousel-item">
+                            <img src="..." class="d-block w-100" alt="...">
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+              </div>
         </section>
     </div>
 
