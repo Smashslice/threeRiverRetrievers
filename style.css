@@ -108,8 +108,6 @@
 
 .index-card {
     background-color: var(--primary-color);
-    margin-left: auto;
-    margin-right: auto;
 }
 
 /* Contact Page Specific changes */
@@ -147,11 +145,15 @@
 }
 
 @media (min-width: 992px){
-
+    
 }
 
 @media (min-width: 1200px){
-
+    .navbar {
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
+    }
 }
 
 @media (min-width: 1400px){
