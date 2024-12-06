@@ -50,7 +50,7 @@
     </div>
     <!-- Start of main body -->
     <div class="container-fluid pawprint-bg pb-3">
-        <section class="container-md">
+        <section class="container-xl">
             <aside class="row">
                 <div class="col info-box mt-3 pt-3">
                     <p></p>
@@ -70,9 +70,39 @@
                     <p><a href="faq.html">Why a Golden For You</a> <br><a href="aboutus.html">What sets us apart</a></p>
                 </div>
             </aside>
-            <article class="contact-info text-center container main-bg mt-3">
-                <h4>email@threeriversretrievers.com</h4>
-                <h5>417-417-4117</h5>
+            <article class="info-box text-center container mt-3">
+                <h4 class="bold contact-info">email@threeriversretrievers.com</h4>
+                <h5 class="bold contact-info">417-417-4117</h5>
+            </article>
+            <aside class="info-box text-center container mt-3 pt-3">
+                <p class="bold">Want to visit the pups? Schedule an appoint today. <br> Please be patient, it may take up to 24 hours for me to respond.</p>
+            </aside>
+            <article>
+                <form class="main-bg form mt-3 p-2">
+                    <div class="mb-3">
+                        <label for="nameinput" class="form-label">Name</label>
+                        <input type="name" class="form-control" id="nameinput" aria-describedby="nameHelp">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="emailinput" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="emailinput" aria-describedby="emailHelp">
+                        <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+                    </div>
+                    <div class="mb-3">
+                        <label for="phonenumber" class="form-label">Phone Number</label>
+                        <input type="phonenumber" class="form-control" id="phonenumber">
+                    </div>
+                    <div class="mb-3">
+                        <label for="questions" class="form-label">Have a question for us?</label>
+                        <textarea class="form-control" id="questions" rows="3"></textarea>
+                      </div>
+                      <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
             </article>
         </section>
     </div>

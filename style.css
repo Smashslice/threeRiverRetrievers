@@ -22,6 +22,10 @@
     background-size: cover;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 /* Header changes */
 
 .background-river{
@@ -75,7 +79,7 @@
 
 /* Information boxes */
 
-.info-box {
+.info-box{
     background-color: var(--primary-color);
     font-weight: bold;
     border-radius: 5px;
@@ -110,12 +114,21 @@
 /* Contact Page Specific Changes */
 
 .contact-info {
-    
+    font-size: 2rem;
+}
+
+.form {
+    border-radius: 5px;
+    border: 2px solid black;
 }
 
 /* Media Queries */
 
 @media (max-width: 768px){
+
+}
+
+@media (max-width: 1200px){
     .info-box-extra {
         display: none;
     }
