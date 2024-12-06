@@ -41,6 +41,14 @@
     -webkit-text-stroke: 1px black;
 }
 
+.established {
+    font-size: 0.75rem;
+    width: 40%;
+    position: relative;
+    right: 12.5%;
+
+}
+
 
 .motto {
     font-size: 1.25rem;
@@ -110,6 +118,11 @@
     background-color: var(--primary-color);
 }
 
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 /* Contact Page Specific changes */
 
 .contact-info {
@@ -126,6 +139,12 @@
 .img-scale {
     border-radius: var(--border-rad);
     width: 25%;
+}
+
+/* Footer Specific changes */
+
+.footer-text {
+    font-size: 0.5rem;
 }
 
 /* Media Queries */
@@ -145,7 +164,7 @@
 }
 
 @media (min-width: 992px){
-    
+
 }
 
 @media (min-width: 1200px){
