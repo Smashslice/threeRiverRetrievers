@@ -82,6 +82,10 @@
     border: 2px solid black;
 }
 
+.info-box-redirect {
+    font-size: 1.5rem;
+}
+
 .info-box a:link, .info-box a:visited{
     color: var(--tertiary-color);
     -webkit-text-stroke: 0.2px black;
@@ -89,6 +93,10 @@
 
 .info-box a:hover{
     color:#974052; 
+}
+
+.info-box-extra {
+    display: block;
 }
 
 /* Index Page Specific changes */
@@ -99,7 +107,19 @@
     margin-right: auto;
 }
 
+/* Contact Page Specific Changes */
+
+.contact-info {
+    
+}
+
 /* Media Queries */
+
+@media (max-width: 768px){
+    .info-box-extra {
+        display: none;
+    }
+}
 
 @media (min-width: 768px){
 
