@@ -10,7 +10,8 @@
     --secondary-color: #70C1B3;
     --tertiary-color: #cc5a71;
     --shadow-box: ;
-    --border-rad: ;
+    --border-rad: 5px;
+    --main-border: 2px solid black;
 }
 
 .main-bg {
@@ -83,7 +84,7 @@
     background-color: var(--primary-color);
     font-weight: bold;
     border-radius: 5px;
-    border: 2px solid black;
+    border: var(--main-border);
 }
 
 .info-box-redirect {
@@ -111,15 +112,22 @@
     margin-right: auto;
 }
 
-/* Contact Page Specific Changes */
+/* Contact Page Specific changes */
 
 .contact-info {
     font-size: 2rem;
 }
 
 .form {
-    border-radius: 5px;
-    border: 2px solid black;
+    border-radius: var(--border-rad);
+    border: var(--main-border);
+}
+
+/* About us Specific changes */
+
+.img-scale {
+    border-radius: var(--border-rad);
+    width: 25%;
 }
 
 /* Media Queries */
