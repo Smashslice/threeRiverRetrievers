@@ -111,6 +111,7 @@
 
 .info-box a:link, .info-box a:visited{
     color: var(--tertiary-color);
+    text-shadow: 1px 1px black;
     -webkit-text-stroke: 0.2px black;
 }
 
@@ -153,6 +154,11 @@
 
 
 /* Litter specific changes */
+
+.important-info {
+    font-size: 2rem;
+    font-weight: bolder;
+}
 
 
 /* FAQ specific changes */
