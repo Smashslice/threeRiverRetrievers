@@ -141,6 +141,7 @@
     width: 25%;
 }
 
+
 /* Litter specific changes */
 
 .litter-slides {
@@ -175,6 +176,9 @@
 @media (min-width: 992px){
     .resize-lg {
         height: 100px;
+    }
+    .resize-about {
+        height: 480px;
     }
 }
 
