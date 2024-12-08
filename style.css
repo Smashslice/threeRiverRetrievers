@@ -37,8 +37,9 @@
 
 .header-text{
     font-weight: bold;
-    color: var(--tertiary-color);
-    -webkit-text-stroke: 1px black;
+    color: black;
+    -webkit-text-stroke: 1px var(--tertiary-color);
+    text-shadow: 3px 3px var(--tertiary-color);
 }
 
 .established {
@@ -57,12 +58,21 @@
     left: 65%;
 }
 
-.fa-brands {
+.fa-brands-header{
     color: var(--tertiary-color);
-    -webkit-text-stroke: 0.2px black;
+    -webkit-text-stroke: 0.75px black;
+    text-shadow: 1.5px 1.5px black;
     position: relative;
     top: 15%;
 }
+
+.fa-brands-footer{
+    color: var(--tertiary-color);
+    -webkit-text-stroke: 0.75px black;
+    position: relative;
+    top: 15%;
+}
+
 
 .fa-brands:hover{
     transform: translate(-2px, -2px);
