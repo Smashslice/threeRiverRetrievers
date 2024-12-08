@@ -141,6 +141,13 @@
     width: 25%;
 }
 
+/* Litter specific changes */
+
+.litter-slides {
+    height: 800px;
+    width: auto;
+}
+
 /* Footer Specific changes */
 
 .footer-text {
@@ -150,7 +157,9 @@
 /* Media Queries */
 
 @media (max-width: 768px){
-
+    .nav-link{
+        padding: 0.5%
+    }
 }
 
 @media (max-width: 1200px){
@@ -164,7 +173,9 @@
 }
 
 @media (min-width: 992px){
-
+    .resize-lg {
+        height: 100px;
+    }
 }
 
 @media (min-width: 1200px){
